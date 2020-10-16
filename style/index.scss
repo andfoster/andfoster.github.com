@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body {
+    background: #FFFDF7;
+
+    div#navParent {
+        width: clamp(480px, 80%, 2000px);
+        margin: 20px auto 0 auto;
+
+        h3 {
+            color: #00B359;
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+            font-size: 2em;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    // smaller screens
+}
