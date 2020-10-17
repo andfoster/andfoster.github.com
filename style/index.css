@@ -2,15 +2,51 @@
 body {
   background: #FFFDF7;
 }
-body div#navParent {
+
+div#landing-parent {
   width: clamp(480px, 80%, 2000px);
   margin: 20px auto 0 auto;
 }
-body div#navParent h3 {
+div#landing-parent div#landing-wrapper div#nav-parent {
+  width: inherit;
+}
+div#landing-parent div#landing-wrapper div#nav-parent div#nav-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+div#landing-parent div#landing-wrapper div#nav-parent div#nav-wrapper div#logo-parent p {
   color: #00B359;
+  font-size: 1.5em;
+  padding: 10px 0;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+div#landing-parent div#landing-wrapper div#nav-parent div#nav-wrapper div#right-nav-parent {
+  display: block;
+  float: right;
+  min-width: 480px;
+}
+div#landing-parent div#landing-wrapper div#nav-parent div#nav-wrapper div#right-nav-parent div#right-nav-wrapper {
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+div#landing-parent div#landing-wrapper div#nav-parent div#nav-wrapper div#right-nav-parent div#right-nav-wrapper p {
+  padding: 15px 3.5em;
+  font-size: 1em;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
-  font-size: 2em;
+  letter-spacing: 0.5px;
+  float: right;
+}
+div#landing-parent div#landing-wrapper div#nav-parent div#nav-wrapper div#right-nav-parent div#right-nav-wrapper button {
+  background: #00B359;
+  border: 0;
+  border-radius: 10px;
+}
+div#landing-parent div#landing-wrapper div#nav-parent div#nav-wrapper div#right-nav-parent div#right-nav-wrapper button p {
+  color: #FFFDF7;
+  font-size: 1.2em;
+  padding: 10px 2.5em;
 }
 
 /*# sourceMappingURL=index.css.map */
