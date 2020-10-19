@@ -3,9 +3,18 @@ body {
   background: #ffffff;
 }
 
+div#background-color {
+  width: 100%;
+  height: 540px;
+  background: #faeddb;
+  margin: 0;
+  padding: 0;
+}
+
 div#landing-parent {
   width: clamp(480px, 75%, 2000px);
-  margin: 20px auto 0 auto;
+  margin: 0 auto;
+  padding-top: 20px;
 }
 div#landing-parent div#landing-wrapper div#nav-parent {
   width: inherit;
@@ -78,7 +87,7 @@ div#landing-parent div#landing-wrapper div#title-parent p {
   font-weight: normal;
 }
 div#landing-parent div#landing-wrapper div#sign-up-parent p#desc {
-  padding: 1em 0;
+  padding: 2em 0 1em 0;
   color: #1B2226;
   font-size: 0.8em;
   font-family: "Roboto", sans-serif;
@@ -86,9 +95,9 @@ div#landing-parent div#landing-wrapper div#sign-up-parent p#desc {
 }
 div#landing-parent div#landing-wrapper div#sign-up-parent input {
   border-radius: 5px;
-  border: 2px solid #3D474D;
+  border: 0;
   width: 20em;
-  height: 36px;
+  height: 40px;
   padding-left: 1em;
   font-size: 1em;
 }
@@ -113,13 +122,65 @@ div#landing-parent div#landing-wrapper div#sign-up-parent button:hover {
   cursor: pointer;
 }
 
+div#about-us-parent {
+  width: clamp(480px, 75%, 2000px);
+  margin: 4em auto 0 auto;
+  font-family: "Roboto", sans-serif;
+}
+div#about-us-parent h2 {
+  font-size: 3em;
+  color: #1B2226;
+  font-weight: bold;
+  text-align: center;
+}
+div#about-us-parent p {
+  padding: 2em 0 0 0;
+  margin: 0 auto;
+  width: 50%;
+  font-size: 1.2em;
+  color: #1B2226;
+  line-height: 1.5em;
+  text-align: center;
+}
+div#about-us-parent div#process-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2em;
+  padding: 4em 0 0 0;
+}
+div#about-us-parent div#process-wrapper div.process {
+  background: #e7e7e7;
+  border-radius: 16px;
+}
+div#about-us-parent div#process-wrapper div.process p {
+  text-align: left;
+  margin: 0;
+  padding: 1.5em 1.75em;
+}
+div#about-us-parent div#process-wrapper h3 {
+  padding: 2em 0 0 2em;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 1em;
+  color: #1B2226;
+}
+div#about-us-parent div#process-wrapper h3::before {
+  content: "&";
+  color: white;
+  padding: 0.25em 0.5em;
+  margin-right: 1em;
+  border-radius: 1em;
+  font-weight: bold;
+  background: #5C1F99;
+}
+
 div#advantages-parent {
   width: clamp(480px, 75%, 2000px);
   margin: 20rem auto 0 auto;
 }
 div#advantages-parent h2 {
   font-family: "Roboto", sans-serif;
-  color: #3D474D;
+  color: #1B2226;
   font-weight: bold;
   text-align: center;
   font-size: 2em;

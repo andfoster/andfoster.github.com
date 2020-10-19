@@ -6,16 +6,27 @@ $yellow: #FFE666;
 
 $black: #1B2226;
 $gray: #3D474D;
-$ghost: #FFFDF7;
+$ghost: #faeddb;
 $white: #ffffff;
+
+$main: $purple;
 
 body {
     background: $white;
 }
 
+div#background-color {
+    width: 100%;
+    height: 540px;
+    background: $ghost;
+    margin: 0;
+    padding: 0;
+}
+
 div#landing-parent {
     width: clamp(480px, 75%, 2000px);
-    margin: 20px auto 0 auto;
+    margin: 0 auto;
+    padding-top: 20px;
 
     div#landing-wrapper {
 
@@ -28,7 +39,7 @@ div#landing-parent {
 
                 div#logo-parent {
                     p {
-                        color: $purple;
+                        color: $main;
                         font-size: 1.5em;
                         padding: 10px 0;
                         font-weight: bold;
@@ -56,7 +67,7 @@ div#landing-parent {
                         }
 
                         button {
-                            background: $purple;
+                            background: $main;
                             border: 0;
                             border-radius: 10px;
 
@@ -107,7 +118,7 @@ div#landing-parent {
             // }
 
             h1 {
-                color: $purple;
+                color: $main;
                 font-size: 4.5em;
                 font-family: 'Roboto', sans-serif;
                 font-weight: bold;
@@ -126,7 +137,7 @@ div#landing-parent {
         div#sign-up-parent {
 
             p#desc {
-                padding: 1em 0;
+                padding: 2em 0 1em 0;
                 color: $black;
                 font-size: .8em;
                 font-family: 'Roboto', sans-serif;
@@ -135,9 +146,9 @@ div#landing-parent {
 
             input {
                 border-radius: 5px;
-                border: 2px solid $gray;
+                border: 0;
                 width: 20em;
-                height: 36px;
+                height: 40px;
                 padding-left: 1em;
                 font-size: 1em;
             }
@@ -147,7 +158,7 @@ div#landing-parent {
                 border: none;
                 font-size: 1em;
                 border-radius: 5px;
-                background: $purple;
+                background: $main;
                 padding: 0 2em;
                 margin-left: .5em;
                 color: white;
@@ -170,13 +181,72 @@ div#landing-parent {
     }
 }
 
+div#about-us-parent {
+    width: clamp(480px, 75%, 2000px);
+    margin: 4em auto 0 auto;
+    font-family: 'Roboto', sans-serif;
+
+    h2 {
+        font-size: 3em;
+        color: $black;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    p {
+        padding: 2em 0 0 0;
+        margin: 0 auto;
+        width: 50%;
+        font-size: 1.2em;
+        color: $black;
+        line-height: 1.5em;
+        text-align: center;
+    }
+
+    div#process-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 2em;
+        padding: 4em 0 0 0;
+
+        div.process {
+            background: rgb(231, 231, 231);
+            border-radius: 16px;
+
+            p {
+                text-align: left;
+                margin: 0;
+                padding: 1.5em 1.75em;
+            }
+        }
+
+        h3 {
+            padding: 2em 0 0 2em;
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+            font-size: 1em;
+            color: $black;
+            
+            &::before {
+                content: '&';
+                color: white;
+                padding: .25em .5em;
+                margin-right: 1em;
+                border-radius: 1em;
+                font-weight: bold;
+                background: $main;
+            }
+        }
+    }
+}
+
 div#advantages-parent {
     width: clamp(480px, 75%, 2000px);
     margin: 20rem auto 0 auto;
 
     h2 {
         font-family: 'Roboto', sans-serif;
-        color: $gray;
+        color: $black;
         font-weight: bold;
         text-align: center;
         font-size: 2em;
