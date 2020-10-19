@@ -141,7 +141,7 @@ div#about-us-parent {
   font-family: "Roboto", sans-serif;
 }
 div#about-us-parent h2 {
-  font-size: 2.5em;
+  font-size: 2em;
   color: #1B2226;
   font-weight: bold;
   text-align: center;
@@ -156,35 +156,29 @@ div#about-us-parent p {
 }
 div#about-us-parent div#process-wrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 20px 1fr 20px 1fr;
   gap: 2em;
   padding: 4em 0 0 0;
 }
+div#about-us-parent div#process-wrapper img {
+  padding-top: 50px;
+}
 div#about-us-parent div#process-wrapper div.process {
-  background: #ececec;
-  border-radius: 16px;
+  border: 2px solid #3D474D;
+  border-radius: 20px;
+  height: 120px;
 }
 div#about-us-parent div#process-wrapper div.process p {
+  padding: 1em 0 0 20px;
   text-align: left;
   margin: 0;
-  padding: 1.5em 1.75em;
 }
 div#about-us-parent div#process-wrapper h3 {
-  padding: 1.4em 0 0 1.3em;
+  padding: 1em 0 0 20px;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 1.5em;
-  color: #1B2226;
-}
-div#about-us-parent div#process-wrapper h3::before {
-  content: "&";
-  color: white;
-  padding: 0.25em 0.5em;
-  margin-right: 1em;
-  border-radius: 1em;
-  font-size: 0.8em;
-  font-weight: bold;
-  background: #5C1F99;
+  color: #5C1F99;
 }
 
 div#advantages-parent {
@@ -237,7 +231,7 @@ div#footer-parent {
   width: 100%;
   background: #5C1F99;
   height: 240px;
-  margin: 5em 0 0 0;
+  margin: 10em 0 0 0;
 }
 div#footer-parent div#footer-wrapper {
   width: clamp(480px, 75%, 2000px);

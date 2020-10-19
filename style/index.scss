@@ -202,7 +202,7 @@ div#about-us-parent {
     font-family: 'Roboto', sans-serif;
 
     h2 {
-        font-size: 2.5em;
+        font-size: 2em;
         color: $black;
         font-weight: bold;
         text-align: center;
@@ -219,38 +219,32 @@ div#about-us-parent {
 
     div#process-wrapper {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 20px 1fr 20px 1fr;
         gap: 2em;
         padding: 4em 0 0 0;
 
+        img {
+            padding-top: 50px;
+        }
+
         div.process {
-            background: $offwhite;
-            border-radius: 16px;
+            border: 2px solid $gray;
+            border-radius: 20px;
+            height: 120px;
 
             p {
+                padding: 1em 0 0 20px;
                 text-align: left;
                 margin: 0;
-                padding: 1.5em 1.75em;
             }
         }
 
         h3 {
-            padding: 1.4em 0 0 1.3em;
+            padding: 1em 0 0 20px;
             font-family: 'Roboto', sans-serif;
             font-weight: bold;
             font-size: 1.5em;
-            color: $black;
-            
-            &::before {
-                content: '&';
-                color: white;
-                padding: .25em .5em;
-                margin-right: 1em;
-                border-radius: 1em;
-                font-size: .8em;
-                font-weight: bold;
-                background: $main;
-            }
+            color: $main;
         }
     }
 }
@@ -313,7 +307,7 @@ div#footer-parent {
     width: 100%;
     background: $purple;
     height: 240px;
-    margin: 5em 0 0 0;
+    margin: 10em 0 0 0;
 
     div#footer-wrapper {
         width: clamp(480px, 75%, 2000px);
