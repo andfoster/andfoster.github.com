@@ -1,12 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: #ffffff;
 }
 
+a {
+  text-decoration: none;
+  color: none;
+}
+
 div#background-color {
   width: 100%;
-  height: 540px;
-  background: #faeddb;
+  height: 580px;
+  background: #f5efe5;
   margin: 0;
   padding: 0;
 }
@@ -29,6 +38,10 @@ div#landing-parent div#landing-wrapper div#nav-parent div#nav-wrapper div#logo-p
   padding: 10px 0;
   font-weight: bold;
   font-family: "Roboto", sans-serif;
+}
+div#landing-parent div#landing-wrapper div#nav-parent div#nav-wrapper div#logo-parent p:hover {
+  cursor: pointer;
+  opacity: 0.9;
 }
 div#landing-parent div#landing-wrapper div#nav-parent div#nav-wrapper div#right-nav-parent {
   display: block;
@@ -128,7 +141,7 @@ div#about-us-parent {
   font-family: "Roboto", sans-serif;
 }
 div#about-us-parent h2 {
-  font-size: 3em;
+  font-size: 2.5em;
   color: #1B2226;
   font-weight: bold;
   text-align: center;
@@ -136,10 +149,9 @@ div#about-us-parent h2 {
 div#about-us-parent p {
   padding: 2em 0 0 0;
   margin: 0 auto;
-  width: 50%;
   font-size: 1.2em;
   color: #1B2226;
-  line-height: 1.5em;
+  line-height: 1.2em;
   text-align: center;
 }
 div#about-us-parent div#process-wrapper {
@@ -149,7 +161,7 @@ div#about-us-parent div#process-wrapper {
   padding: 4em 0 0 0;
 }
 div#about-us-parent div#process-wrapper div.process {
-  background: #e7e7e7;
+  background: #ececec;
   border-radius: 16px;
 }
 div#about-us-parent div#process-wrapper div.process p {
@@ -158,10 +170,10 @@ div#about-us-parent div#process-wrapper div.process p {
   padding: 1.5em 1.75em;
 }
 div#about-us-parent div#process-wrapper h3 {
-  padding: 2em 0 0 2em;
+  padding: 1.4em 0 0 1.3em;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
-  font-size: 1em;
+  font-size: 1.5em;
   color: #1B2226;
 }
 div#about-us-parent div#process-wrapper h3::before {
@@ -170,13 +182,14 @@ div#about-us-parent div#process-wrapper h3::before {
   padding: 0.25em 0.5em;
   margin-right: 1em;
   border-radius: 1em;
+  font-size: 0.8em;
   font-weight: bold;
   background: #5C1F99;
 }
 
 div#advantages-parent {
   width: clamp(480px, 75%, 2000px);
-  margin: 20rem auto 0 auto;
+  margin: 12rem auto 0 auto;
 }
 div#advantages-parent h2 {
   font-family: "Roboto", sans-serif;
@@ -218,6 +231,32 @@ div#advantages-parent div#advantages-wrapper div.advantage p {
   color: #3D474D;
   font-size: 1em;
   line-height: 1.25em;
+}
+
+div#footer-parent {
+  width: 100%;
+  background: #5C1F99;
+  height: 240px;
+  margin: 5em 0 0 0;
+}
+div#footer-parent div#footer-wrapper {
+  width: clamp(480px, 75%, 2000px);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  gap: 200px;
+}
+div#footer-parent h2 {
+  padding: 105px 0 0 0;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  width: auto;
+}
+div#footer-parent h2:hover {
+  cursor: pointer;
+  opacity: 0.9;
 }
 
 /*# sourceMappingURL=index.css.map */
