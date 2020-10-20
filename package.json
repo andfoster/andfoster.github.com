@@ -1,0 +1,26 @@
+{
+  "name": "feedback-github",
+  "version": "1.0.0",
+  "description": "Static site for feedback MVP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andfoster/andfoster.github.com.git"
+  },
+  "keywords": [
+    "MVP",
+    "static"
+  ],
+  "author": "Andrew Foster",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andfoster/andfoster.github.com/issues"
+  },
+  "homepage": "https://github.com/andfoster/andfoster.github.com#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
