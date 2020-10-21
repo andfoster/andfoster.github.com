@@ -7,7 +7,7 @@ $blue: #3471ff;
 
 $black: #1B2226;
 $gray: #3D474D;
-$ghost: #e0d5fa;
+$ghost: #eae2fd;
 $offwhite: #ececec;
 $white: #ffffff;
 
@@ -74,8 +74,8 @@ div#landing-parent {
 
                         p {
                             color: $black;
-                            padding: 15px 3.5em;
-                            font-size: 1em;
+                            padding: 18px 3.5em;
+                            font-size: .8em;
                             font-family: 'Roboto', sans-serif;
                             font-weight: bold;
                             letter-spacing: .5px;
@@ -197,48 +197,14 @@ div#about-us-parent {
         font-size: 2em;
         color: $black;
         font-weight: bold;
-        text-align: center;
     }
 
     p {
-        padding: 2em 0 0 0;
+        padding: 1em 0 0 0;
         margin: 0 auto;
         font-size: 1.2em;
         color: $black;
         line-height: 1.2em;
-        text-align: center;
-    }
-
-    div#process-wrapper {
-        display: grid;
-        grid-template-columns: 1fr 20px 1fr 20px 1fr;
-        gap: 2em;
-        padding: 4em 0 0 0;
-
-        img {
-            padding-top: 50px;
-        }
-
-        div.process {
-            border: 1px solid $gray;
-            border-radius: 20px;
-            height: auto;
-
-            p {
-                padding: 1em 1em 2em 20px;
-                text-align: left;
-                margin: 0;
-                font-size: 1em;
-            }
-        }
-
-        h3 {
-            padding: 1em 0 0 20px;
-            font-family: 'Roboto', sans-serif;
-            font-weight: bold;
-            font-size: 1.5em;
-            color: $main;
-        }
     }
 }
 
