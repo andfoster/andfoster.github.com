@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
 $green: #00CC66;
-$purple: #5900b3;
+$purple: #6008b8;
 $yellow: #FFE666;
-$blue: #3471ff;
+$blue: #0b2be2;
 
-$black: #1B2226;
+$black: #171c1f;
 $gray: #3D474D;
-$ghost: #eae2fd;
+$ghost: #e4eefd;
 $offwhite: #ececec;
 $white: #ffffff;
 
-$main: $purple;
+$main: $blue;
 
 html {
     scroll-behavior: smooth;
@@ -75,7 +75,7 @@ div#landing-parent {
                         p {
                             color: $black;
                             padding: 18px 3.5em;
-                            font-size: .8em;
+                            font-size: .9em;
                             font-family: 'Roboto', sans-serif;
                             font-weight: bold;
                             letter-spacing: .5px;
@@ -242,7 +242,7 @@ div#advantages-parent {
 
                 &::before {
                     content: '&';
-                    background: $purple;
+                    background: $main;
                     padding: .25em .5em;
                     border-radius: 1em;
                     margin-right: .8em;
