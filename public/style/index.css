@@ -15,7 +15,6 @@ a {
 div#background-color {
   width: 100%;
   height: 580px;
-  background: #eef5ff;
   margin: 0;
   padding: 0;
 }
@@ -33,7 +32,7 @@ div#landing-parent div#landing-wrapper div#nav-parent div#nav-wrapper {
   grid-template-columns: 1fr 1fr;
 }
 div#landing-parent div#landing-wrapper div#nav-parent div#nav-wrapper div#logo-parent p {
-  color: #1e45f5;
+  color: #0c34e7;
   font-size: 1.5em;
   padding: 10px 0;
   font-weight: bold;
@@ -67,7 +66,7 @@ div#landing-parent div#landing-wrapper div#nav-parent div#nav-wrapper div#right-
   float: right;
 }
 div#landing-parent div#landing-wrapper div#nav-parent div#nav-wrapper div#right-nav-parent div#right-nav-wrapper button {
-  background: #1e45f5;
+  background: #0c34e7;
   border: 0;
   border-radius: 10px;
   transition-duration: 0.25s;
@@ -102,7 +101,7 @@ div#landing-parent div#landing-wrapper div#title-parent {
   }
 }
 div#landing-parent div#landing-wrapper div#title-parent h1 {
-  color: #1e45f5;
+  color: #0c34e7;
   font-size: 4.5em;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
@@ -120,7 +119,7 @@ div#landing-parent div#landing-wrapper div#title-parent p span {
   color: #171c1f;
 }
 div#landing-parent div#landing-wrapper div#sign-up-parent p#desc {
-  padding: 2em 0 1em 0;
+  padding: 2em 0 1.5em 0;
   color: #171c1f;
   font-size: 0.9em;
   font-family: "Roboto", sans-serif;
@@ -133,13 +132,14 @@ div#landing-parent div#landing-wrapper div#sign-up-parent input {
   height: 40px;
   padding-left: 1em;
   font-size: 1em;
+  background: #ebf4ff;
 }
 div#landing-parent div#landing-wrapper div#sign-up-parent button {
   height: 42px;
   border: none;
   font-size: 1em;
   border-radius: 5px;
-  background: #1e45f5;
+  background: #0c34e7;
   padding: 0 2em;
   margin-left: 0.5em;
   color: white;
@@ -157,7 +157,7 @@ div#landing-parent div#landing-wrapper div#sign-up-parent button:hover {
 
 div#about-us-parent {
   width: clamp(480px, 75%, 2000px);
-  margin: 4em auto 0 auto;
+  margin: 12em auto 0 auto;
   font-family: "Roboto", sans-serif;
 }
 div#about-us-parent div#about-us-half {
@@ -179,7 +179,7 @@ div#about-us-parent p {
 
 div#advantages-parent {
   width: clamp(480px, 75%, 2000px);
-  margin: 20rem auto 0 auto;
+  margin: 25em auto 0 auto;
 }
 div#advantages-parent h2 {
   font-family: "Roboto", sans-serif;
@@ -220,7 +220,7 @@ div#advantages-parent div#advantages-wrapper div.advantage h3 {
 }
 div#advantages-parent div#advantages-wrapper div.advantage h3::before {
   content: "&";
-  background: #1e45f5;
+  background: #0c34e7;
   padding: 0.25em 0.5em;
   border-radius: 1em;
   margin-right: 0.8em;
@@ -236,7 +236,7 @@ div#advantages-parent div#advantages-wrapper div.advantage p {
 
 div#footer-parent {
   width: 100%;
-  background: #1e45f5;
+  background: #0c34e7;
   height: 240px;
   margin: 10em 0 0 0;
 }
