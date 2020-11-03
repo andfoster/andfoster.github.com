@@ -3,11 +3,11 @@
 $green: #00CC66;
 $purple: #6008b8;
 $yellow: #FFE666;
-$blue: #0b2be2;
+$blue: #1e45f5;
 
 $black: #171c1f;
 $gray: #3D474D;
-$ghost: #e4eefd;
+$ghost: #eef5ff;
 $offwhite: #ececec;
 $white: #ffffff;
 
@@ -71,10 +71,13 @@ div#landing-parent {
                     div#right-nav-wrapper {
                         display: grid;
                         grid-template-columns: 1fr auto;
+                        @media only screen and (max-width: 699px) {
+                            grid-template-columns: 1fr;
+                        }
 
                         p {
                             color: $black;
-                            padding: 18px 3.5em;
+                            margin: 18px 3.5em;
                             font-size: .9em;
                             font-family: 'Roboto', sans-serif;
                             font-weight: bold;
@@ -89,14 +92,19 @@ div#landing-parent {
 
                             transition-duration: .25s;
 
+                            @media only screen and (max-width: 700px) {
+                                visibility: hidden;
+                            }
+
                             -webkit-box-shadow: 0px 6px 33px -17px rgba(0,0,0,0.5);
                             -moz-box-shadow: 0px 6px 33px -17px rgba(0,0,0,0.5);
                             box-shadow: 0px 6px 33px -17px rgba(0,0,0,0.5);
 
                             p {
                                 color: $white;
-                                font-size: 1.2em;
-                                padding: 10px 2em;
+                                font-size: 1.1em;
+                                margin: 0 20px;
+                                padding: 0 20px;
                             }
 
                             &:hover {
@@ -118,6 +126,9 @@ div#landing-parent {
 
         div#title-parent {
             margin: 10em 0 0 0;
+            @media only screen and (max-width: 700px) {
+                margin-top: 5em;
+            }
 
             h1 {
                 color: $main;
@@ -193,8 +204,13 @@ div#about-us-parent {
     margin: 4em auto 0 auto;
     font-family: 'Roboto', sans-serif;
 
+    div#about-us-half {
+        width: clamp(440px, 50%, 2000px);
+        float: left;
+    }
+
     h2 {
-        font-size: 2em;
+        font-size: 1.6em;
         color: $black;
         font-weight: bold;
     }
@@ -202,15 +218,15 @@ div#about-us-parent {
     p {
         padding: 1em 0 0 0;
         margin: 0 auto;
-        font-size: 1.2em;
+        font-size: 1em;
         color: $black;
-        line-height: 1.2em;
+        line-height: 1.3em;
     }
 }
 
 div#advantages-parent {
     width: clamp(480px, 75%, 2000px);
-    margin: 12rem auto 0 auto;
+    margin: 20rem auto 0 auto;
 
     h2 {
         font-family: 'Roboto', sans-serif;
@@ -228,8 +244,17 @@ div#advantages-parent {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 200px;
-        gap: 2em 5em;
+        gap: 2em 4em;
         padding: 4em 0 0 0;
+
+        @media only screen and (max-width: 1300px) {
+            grid-template-columns: 1fr 1fr;
+        }
+
+        @media only screen and (max-width: 840px) {
+            grid-template-columns: 1fr;
+            gap: 0em 4em;
+        }
 
         div.advantage {
             padding: 2em 0;
