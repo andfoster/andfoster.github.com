@@ -26,6 +26,7 @@ div#landing-parent {
 }
 div#landing-parent div#landing-wrapper div#nav-parent {
   width: inherit;
+  padding-top: 1.2em;
 }
 div#landing-parent div#landing-wrapper div#nav-parent div#nav-wrapper {
   display: grid;
@@ -58,8 +59,8 @@ div#landing-parent div#landing-wrapper div#nav-parent div#nav-wrapper div#right-
 }
 div#landing-parent div#landing-wrapper div#nav-parent div#nav-wrapper div#right-nav-parent div#right-nav-wrapper p {
   color: #171c1f;
-  margin: 18px 3.5em;
-  font-size: 0.9em;
+  margin: 15px 6em;
+  font-size: 0.8em;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   letter-spacing: 0.5px;
@@ -69,6 +70,8 @@ div#landing-parent div#landing-wrapper div#nav-parent div#nav-wrapper div#right-
   background: #0c34e7;
   border: 0;
   border-radius: 10px;
+  margin-top: 0em;
+  height: 3.2em;
   transition-duration: 0.25s;
   -webkit-box-shadow: 0px 6px 33px -17px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0px 6px 33px -17px rgba(0, 0, 0, 0.5);
@@ -83,7 +86,7 @@ div#landing-parent div#landing-wrapper div#nav-parent div#nav-wrapper div#right-
   color: #ffffff;
   font-size: 1.1em;
   margin: 0 20px;
-  padding: 0 20px;
+  padding: 0 10px;
 }
 div#landing-parent div#landing-wrapper div#nav-parent div#nav-wrapper div#right-nav-parent div#right-nav-wrapper button:hover {
   -webkit-box-shadow: -2px 10px 33px -17px rgba(0, 0, 0, 0.75);
@@ -102,7 +105,7 @@ div#landing-parent div#landing-wrapper div#title-parent {
 }
 div#landing-parent div#landing-wrapper div#title-parent h1 {
   color: #0c34e7;
-  font-size: 4.5em;
+  font-size: 4em;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   word-wrap: break-word;
@@ -110,7 +113,7 @@ div#landing-parent div#landing-wrapper div#title-parent h1 {
 div#landing-parent div#landing-wrapper div#title-parent p {
   padding: 1em 0;
   color: #3D474D;
-  font-size: 1.3em;
+  font-size: 1.1em;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
 }
@@ -121,18 +124,18 @@ div#landing-parent div#landing-wrapper div#title-parent p span {
 div#landing-parent div#landing-wrapper div#sign-up-parent p#desc {
   padding: 2em 0 1.5em 0;
   color: #171c1f;
-  font-size: 0.9em;
+  font-size: 0.7em;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
 }
 div#landing-parent div#landing-wrapper div#sign-up-parent input {
   border-radius: 5px;
   border: 0;
-  width: 20em;
+  width: 22em;
   height: 40px;
   padding-left: 1em;
-  font-size: 1em;
-  background: #ebf4ff;
+  font-size: 0.8em;
+  background: #ececec;
 }
 div#landing-parent div#landing-wrapper div#sign-up-parent button {
   height: 42px;
